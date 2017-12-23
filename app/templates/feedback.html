@@ -1,0 +1,22 @@
+{% from "_formhelpers.html" import render_field %}
+
+<!DOCTYPE html>
+
+<html>
+
+	<header>
+		<meta charset="UTF-8">
+	</header>
+
+	<body>
+		<form method=post action='/feedbacks'>
+		  <dl>
+		    {{ render_field(form.name) }}
+		    {{ render_field(form.email) }}
+		    {{ render_field(form.comment) }}
+		  </dl>
+		  <p><input type=submit value=Register>
+		</form>
+	</body>
+
+</html>

@@ -1,0 +1,7 @@
+Flask
+flask-sqlalchemy
+flask-migrate
+flask-script
+flask-wtf
+flask-blueprint
+flake8
